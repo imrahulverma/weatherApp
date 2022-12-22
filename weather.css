@@ -1,0 +1,55 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+main{
+    background-color: #3498db;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.row{
+    width: 1000px;
+    /* height: 100px; */
+    margin: 1rem;
+    /* border: 1px solid black; */
+    font-size: 3rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+#search{
+    font-size: 2.5rem;
+    padding: 1rem;
+    border-radius: 2.5rem;
+    border: none;
+    outline: none;
+    align-self: center;
+    margin: auto;
+}
+form{
+    margin: auto;
+}
+#weather{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+#nm{
+    /* border:2px solid red; */
+    text-align: center;
+}
+
+#details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
